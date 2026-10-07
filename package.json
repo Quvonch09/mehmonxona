@@ -1,0 +1,19 @@
+{
+  "name": "hotelpro-crm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HotelPro — Mehmonxona boshqaruv tizimi va CRM platformasi",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "hotelpro",
+    "hotel-management",
+    "crm",
+    "pms",
+    "uzbekistan"
+  ],
+  "author": "Quvonchbek",
+  "license": "MIT"
+}

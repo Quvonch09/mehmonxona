@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HotelPro — Mehmonxona Boshqaruvi va CRM Tizimi</title>
+  <meta name="description" content="Bron qilish, xonalar shaxmatkasi, oshxona, ombor, kassa va moliya bitta tizimda. Mehmonxonalar uchun O'zbekistondagi eng qulay bulutli CRM.">
+  <meta name="keywords" content="HotelPro, mehmonxona tizimi, mehmonxona dasturi, hotel pms, hotel crm uzbekistan, mehmonxona boshqaruvi, shaxmatka bron">
+  <meta property="og:title" content="HotelPro — Mehmonxona Boshqaruvi va CRM Tizimi">
+  <meta property="og:description" content="Excel va daftarlardan qutuling. Mehmonxonangiz boshqaruvi 24/7 qo'lingizda.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏨</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- ===================================================================
+       Header Navigation
+       =================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="HotelPro Bosh sahifa">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/>
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/>
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/>
+            <path d="M10 6h4"/>
+            <path d="M10 10h4"/>
+            <path d="M10 14h4"/>
+            <path d="M10 18h4"/>
+          </svg>
+        </div>
+        <span>HotelPro</span>
+        <span class="brand-tag">CRM</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#muammo">Muammolar</a></li>
+          <li><a href="#yechim">Modullar</a></li>
+          <li><a href="#demo-live">Jonli Tizim</a></li>
+          <li><a href="#raqobatchilar">Booking.com vs HotelPro</a></li>
+          <li><a href="#integratsiyalar">Integratsiyalar</a></li>
+          <li><a href="#mijozlar">Mijozlar</a></li>
+          <li><a href="#tariflar">Tariflar</a></li>
+          <li><a href="#kalkulyator">Kalkulyator</a></li>
+          <li><a href="#reja">Reja</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn btn-primary open-demo-modal" id="nav-demo-btn">
+          <span>Demo olish</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <button type="button" class="menu-toggle" aria-label="Menyuni ochish">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================================
+         Hero Section
+         =================================================================== -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge badge-gold">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>O'zbekistondagi zamonaviy mehmonxona boshqaruv tizimi</span>
+          </div>
+
+          <h1>Mehmonxonangiz hisobi <br><span class="text-gradient">Excelda emas, qo'lingizda</span></h1>
+          
+          <p class="hero-desc">
+            Xonalar shaxmatkasi, onlayn bronlar, oshxona, ombor, tushum va xarajatlar yagona aqlli tizimda. 
+            Boshliq hisobotni daftardan qidirmaydi — real vaqtda telefonida ko'radi.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-gold btn-lg open-demo-modal" id="hero-demo-btn">
+              <span>Bepul Demo Ko'rish</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+            <a href="#demo-live" class="btn btn-secondary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="10 8 16 12 10 16 10 8"/>
+              </svg>
+              <span>Qanday ishlaydi?</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-list">
+            <div class="hero-trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>14 kun bepul sinov</span>
+            </div>
+            <div class="hero-trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>O'rnatish va o'rgatish tekin</span>
+            </div>
+            <div class="hero-trust-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+              <span>100% O'zbek tilida</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-mockup-frame">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80" alt="Zamonaviy lyuks mehmonxona interyeri" loading="eager" width="1200" height="480">
+            <div class="frame-overlay"></div>
+            <div class="frame-caption">
+              <div>
+                <h4>HotelPro Boshqaruv Markazi</h4>
+                <p>Barcha 42 xona, oshxona va kassa to'liq avtomatlashtirilgan</p>
+              </div>
+              <span class="screen-live-badge">Faol Tizim</span>
+            </div>
+          </div>
+
+          <!-- Dynamic floating live status widgets -->
+          <div class="float-pill float-pill-1">
+            <div class="float-icon green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="float-info">
+              <div class="float-label">Bugungi Sof Tushum</div>
+              <div class="float-val">28 450 000 so'm</div>
+            </div>
+          </div>
+
+          <div class="float-pill float-pill-2">
+            <div class="float-icon blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>
+            </div>
+            <div class="float-info">
+              <div class="float-label">Xonalar Bandligi</div>
+              <div class="float-val">88% (37 / 42 xona)</div>
+            </div>
+          </div>
+
+          <div class="float-pill float-pill-3">
+            <div class="float-icon amber">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+            <div class="float-info">
+              <div class="float-label">Nonushta & Restoran</div>
+              <div class="float-val">74 nafar mehmon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Quick Stats Ribbon
+         =================================================================== -->
+    <div class="stats-ribbon">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div>
+            <div class="stat-num">1 Joyda</div>
+            <div class="stat-desc">Bron, oshxona va kassa birlashgan</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="stat-num">0 Kutish</div>
+            <div class="stat-desc">Hisobotlar soniyalarda tayyor</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <div>
+            <div class="stat-num">24 / 7</div>
+            <div class="stat-desc">Dunyoning istalgan burchagidan nazorat</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          </div>
+          <div>
+            <div class="stat-num">100% UZ</div>
+            <div class="stat-desc">O'zbek tili va qonunchiligiga mos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================
+         Problems Section (Muammolar)
+         =================================================================== -->
+    <section id="muammo" class="problems-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-gold">Mavjud qiyinchiliklar</div>
+          <h2>Mehmonxonalar nima uchun <span class="text-gradient">pul va mijoz yo'qotadi?</span></h2>
+          <p>Biz O'zbekistondagi 50+ dan ortiq mehmonxonalarni tahlil qildik. Ushbu 8 ta odatiy holat har kuni millionlab so'm zarar keltiradi:</p>
+        </div>
+
+        <div class="problems-grid">
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Hisobot faqat Excelda</h3>
+            <p>Har bir smena xodimi o'zicha fayl yuritadi. Raqamlar, kassadagi pul va jurnallar bir-biriga mutlaqo to'g'ri kelmaydi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Hisobot kech keladi</h3>
+            <p>Mehmonxona egasi tushum va qoldiqni so'rasa, ma'lumot kun oxirida yoki ertasi kuni soatlab sanab beriladi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+            </div>
+            <h3>Oshxona va ovqat noma'lum</h3>
+            <p>Nechta nonushta berildi, qancha mahsulot ketdi va oshxonada qanday isrof bo'layotgani qorong'i bo'lib qolaveradi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            </div>
+            <h3>Kunlik pul oqimi noaniq</h3>
+            <p>Naqd pul, karta, o'tkazma aralashib ketadi. Kunlik sof foyda yoki zarar darhol ko'rinmaydi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+            </div>
+            <h3>Overbooking (Ikki marta bron)</h3>
+            <p>Telefon, Telegram va Booking'dan kelgan bronlar adashib ketib, bitta xonaga ikki mehmon kelib qolishi yuz beradi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M19 21v-4a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v4M9 11l3 3 6-6"/></svg>
+            </div>
+            <h3>Xona holati bilib bo'lmaydi</h3>
+            <p>Qaysi xona toza, qaysi biri tozalanmoqda yoki ta'mirda — resepshn faqat baqirib yoki qo'ng'iroq qilib aniqlaydi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+            <h3>Omborda mahsulot isrofi</h3>
+            <p>Sovun, sochiq, qahva, choy va mahsulotlar qoldig'i hisoblanmaydi, sezilarsiz yo'qotishlar oylab davom etadi.</p>
+          </div>
+
+          <div class="problem-card">
+            <div class="problem-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Mijozlar bazasi yo'q</h3>
+            <p>Oldin kelgan doimiy mehmon qaytib kelsa, uni tanib bo'lmaydi. Bayramlarda chegirma berib, qayta chaqirish imkoni yo'q.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Solutions & Modules Section (Yechim)
+         =================================================================== -->
+    <section id="yechim" class="solutions-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge">Barcha vositalar bir tizimda</div>
+          <h2>Yechim: <span class="text-gradient">HotelPro Ekotizimi</span></h2>
+          <p>Biznes jarayonlari mukammal avtomatlashtirilgan. Mehmon kelishidan tortib, kassa hisobotigacha har bir bosqich nazoratda.</p>
+        </div>
+
+        <div class="solutions-grid">
+          <!-- Card 1 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80" alt="Resepshn va mehmon qabul qilish" loading="lazy" width="800" height="200">
+              <span class="solution-tag">Front Office</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              </div>
+              <h3>Bron va Resepshn Shaxmatkasi</h3>
+              <p>Rangli qulay kalendar, tezkor Check-in/Check-out, avanslar va qarzdorliklar. Overbooking xavfi 100% bartaraf etiladi.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 1 tugma bilan joylashtirish</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Pasport skaner integratsiyasi</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> E-mehmon tizimi bilan sinxronizatsiya</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80" alt="Xona tozalash va tartib" loading="lazy" width="800" height="200">
+              <span class="solution-tag">Housekeeping</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3>Tozalash va Xonalar Nazorati</h3>
+              <p>Mehmon chiqib ketishi bilan tozalash vazifasi xizmatchi telefoniga yuboriladi. Tozalab bo'lingach, resepshn ekranda "Tayyor" belgisini ko'radi.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Xona holatlari (Toza, Kir, Ta'mir)</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Tozalovchilar ish unumdorligi</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Mini-bar va sochiqlar hisobi</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Restoran va oshxona boshqaruvi" loading="lazy" width="800" height="200">
+              <span class="solution-tag">F&B / Kitchen</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+              </div>
+              <h3>Oshxona, Restoran va Ombor</h3>
+              <p>Har kungi nonushta, tushlik va kechki ovqatlar soni. Omborga kirgan go'sht, sabzavot va ichimliklar avtomatik yechiladi.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Kunlik ovqatlanganlar aniq soni</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Kam qolgan mahsulot xabarnomasi</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Taom tan narxi va marja hisobi</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Moliya va kassa hisoboti" loading="lazy" width="800" height="200">
+              <span class="solution-tag">Finance</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 15h0M2 10h20"/></svg>
+              </div>
+              <h3>Kassa va Moliyaviy Tahlil</h3>
+              <p>Naqd pul, Payme, Click, bank o'tkazmalari bo'yicha alohida kassa. Istalgan davr uchun sof foyda, xarajatlar va P&L hisoboti.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Smena ochish va yopish akti</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Xarajatlar toifalari (Kommunal, Maosh)</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Qarzlar va depozitlar jurnali</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Boshliq paneli va tahlil" loading="lazy" width="800" height="200">
+              <span class="solution-tag">Owner App</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <h3>Boshliq Paneli va Telegram Bot</h3>
+              <p>Mehmonxona egasi dunyoning qayerida bo'lishidan qat'i nazar: bugungi tushum, xarajat, bandlik va kassa qoldig'i Telegramga avtomatik keladi.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Har oqshom Telegram orqali xulosa</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Shubhali o'chirishlar haqida ogohlantirish</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Filiallarni taqqoslash</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="solution-card">
+            <div class="solution-img-wrap">
+              <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Mehmonlar CRM va xizmat" loading="lazy" width="800" height="200">
+              <span class="solution-tag">Guest CRM</span>
+            </div>
+            <div class="solution-body">
+              <div class="solution-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <h3>Mehmonlar CRM va Qayta Chaqirish</h3>
+              <p>Mijoz qachon kelgan, qaysi xonada yotgan, nimalarni yoqtiradi — barchasi eslab qolinadi. Tug'ilgan kun tabriklari va chegirmalar yuborish mumkin.</p>
+              <ul class="solution-features">
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Avtomatik SMS bildirishnomalar</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> VIP mijozlar toifalari</li>
+                <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Mijozlarning fikr va baholari</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before vs After Interactive Comparison -->
+        <div class="comparison-container">
+          <div class="comparison-grid">
+            <div class="comparison-box box-before">
+              <div class="box-header">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="15" y1="9" x2="9" y2="15"/>
+                  <line x1="9" y1="9" x2="15" y2="15"/>
+                </svg>
+                <h3>HotelPro'gacha: Eski Usul</h3>
+              </div>
+              <ul class="comp-list">
+                <li>
+                  <span class="comp-icon">❌</span>
+                  <span><strong>Excel va qog'oz daftarlar:</strong> Raqamlar adashadi, xodimlar orasida tushunmovchiliklar yuzaga keladi.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">❌</span>
+                  <span><strong>Hisobot faqat ertasi kuni:</strong> Rahbar bugun qancha pul tushganini faqat ertaga tushlikda biladi.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">❌</span>
+                  <span><strong>Oshxona va mahsulotlar nazoratsiz:</strong> Kim qancha yedi, qancha go'sht va yog' sarflandi — taxminiy.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">❌</span>
+                  <span><strong>Xonalar holati chalkash:</strong> Mehmon kelganda xona tozalanmagani ma'lum bo'lib, noqulay vaziyat bo'ladi.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="comparison-box box-after">
+              <div class="box-header">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                <h3>HotelPro Bilan: Zamonaviy Tizim</h3>
+              </div>
+              <ul class="comp-list">
+                <li>
+                  <span class="comp-icon">✅</span>
+                  <span><strong>Yagona bulutli baza:</strong> Resepshn, tozalash va oshxona ma'lumotlari bir zumda umumiy hisobda ko'rinadi.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">✅</span>
+                  <span><strong>Real vaqtda kassa:</strong> Har bir to'lov o'sha soniyaning o'zidayoq hisobotga qo'shiladi.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">✅</span>
+                  <span><strong>Oshxona va ombor aniq:</strong> Ovqatlanganlar va mahsulot qoldiqlari grammigacha nazorat ostida.</span>
+                </li>
+                <li>
+                  <span class="comp-icon">✅</span>
+                  <span><strong>Telegram orqali nazorat:</strong> Rahbar uzoqda bo'lsa ham butun faoliyatni kaftidek kuzatib turadi.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Live Interactive App Demo Section (Tizim Ichida)
+         =================================================================== -->
+    <section id="demo-live" class="live-demo-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-emerald">Jonli Interfeys</div>
+          <h2>Tizim <span class="text-gradient">qanday ishlaydi?</span></h2>
+          <p>Quyidagi bo'limlarni tanlab, HotelPro imkoniyatlarini hoziroq interaktiv tarzda sinab ko'ring:</p>
+        </div>
+
+        <!-- Tab Switchers -->
+        <div class="demo-tabs-nav">
+          <button type="button" class="demo-tab-btn active" data-tab="tab-dashboard">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <span>Boshqaruv Paneli</span>
+          </button>
+          <button type="button" class="demo-tab-btn" data-tab="tab-rooms">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11"/></svg>
+            <span>Xonalar Shaxmatkasi</span>
+          </button>
+          <button type="button" class="demo-tab-btn" data-tab="tab-kitchen">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+            <span>Restoran & Oshxona</span>
+          </button>
+          <button type="button" class="demo-tab-btn" data-tab="tab-telegram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            <span>Telegram Bot Hisoboti</span>
+          </button>
+        </div>
+
+        <!-- Interactive Screen Container -->
+        <div class="demo-screen-container">
+          <div class="screen-topbar">
+            <div class="screen-dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </div>
+            <div class="screen-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+              <span>HotelPro Cloud v3.4 — Jonli Demo Rejimi</span>
+            </div>
+            <span class="screen-live-badge">Sinxronlangan</span>
+          </div>
+
+          <!-- Tab 1: Dashboard Panel -->
+          <div class="demo-tab-panel active" id="tab-dashboard">
+            <div class="dash-overview-grid">
+              <div class="dash-kpi">
+                <div class="dash-kpi-head">
+                  <span>Bugungi Tushum</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>
+                </div>
+                <h4>34 820 000 so'm</h4>
+                <div class="dash-kpi-trend trend-up">
+                  <span>+18.4%</span> kechagiga nisbatan
+                </div>
+              </div>
+
+              <div class="dash-kpi">
+                <div class="dash-kpi-head">
+                  <span>Xonalar Bandligi</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/></svg>
+                </div>
+                <h4>86%</h4>
+                <div class="dash-kpi-trend trend-up">
+                  <span>36 / 42 xona</span> to'la
+                </div>
+              </div>
+
+              <div class="dash-kpi">
+                <div class="dash-kpi-head">
+                  <span>Bugungi Mehmonlar</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                </div>
+                <h4>58 nafar</h4>
+                <div class="dash-kpi-trend trend-up">
+                  <span>14 ta</span> yangi kirish (Check-in)
+                </div>
+              </div>
+
+              <div class="dash-kpi">
+                <div class="dash-kpi-head">
+                  <span>Kassa Qoldig'i</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                </div>
+                <h4>112 400 000 so'm</h4>
+                <div class="dash-kpi-trend trend-up">
+                  <span>Naqd + Karta + Bank</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dash-inner-grid">
+              <div class="dash-card-box">
+                <h4>Haftalik Tushum Dinamikasi (Dush - Yak)</h4>
+                <div class="chart-bars-wrap">
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 55%;"></div></div>
+                    <span>Du</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 65%;"></div></div>
+                    <span>Se</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 60%;"></div></div>
+                    <span>Chor</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 80%;"></div></div>
+                    <span>Pay</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 95%;"></div></div>
+                    <span>Jum</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 100%;"></div></div>
+                    <span>Sha</span>
+                  </div>
+                  <div class="bar-col">
+                    <div class="bar-fill-track"><div class="bar-fill" style="height: 85%;"></div></div>
+                    <span>Yak</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dash-card-box">
+                <h4>Oxirgi Amallar (Real-time)</h4>
+                <ul class="activity-feed">
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#10b981"></span>
+                    <div class="activity-info">
+                      <p><strong>№ 204 xona</strong> to'lovi qabul qilindi (Payme)</p>
+                      <span>12:44 • 750 000 so'm</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#3b82f6"></span>
+                    <div class="activity-info">
+                      <p><strong>№ 301 xona</strong> yangi mehmon kirdi (Check-in)</p>
+                      <span>12:20 • Alisher Vohidov</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#f59e0b"></span>
+                    <div class="activity-info">
+                      <p><strong>№ 108 xona</strong> tozalashga topshirildi</p>
+                      <span>11:58 • Dilnoza (Tozalovchi)</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#8b5cf6"></span>
+                    <div class="activity-info">
+                      <p><strong>Booking.com</strong> orqali 3 kechaga yangi bron</p>
+                      <span>11:15 • Deluxe Suite</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: Interactive Room Grid (Shaxmatka) -->
+          <div class="demo-tab-panel" id="tab-rooms">
+            <div class="room-grid-header">
+              <h4>Bugungi Xonalar Holati (Shaxmatka)</h4>
+              <div class="room-legend">
+                <div class="legend-item"><span class="legend-color bg-busy"></span><span>Band (Mehmon bor)</span></div>
+                <div class="legend-item"><span class="legend-color bg-free"></span><span>Bo'sh (Tayyor)</span></div>
+                <div class="legend-item"><span class="legend-color bg-cleaning"></span><span>Tozalanmoqda</span></div>
+                <div class="legend-item"><span class="legend-color bg-reserved"></span><span>Bron qilingan</span></div>
+              </div>
+            </div>
+
+            <div class="rooms-tiles-grid">
+              <!-- Room 1 -->
+              <div class="room-tile state-busy">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 101</span>
+                  <span class="room-status-badge">Band</span>
+                </div>
+                <div class="room-guest-name">Akmal Boboyev</div>
+                <div class="room-tile-type">Standart Twin • 2 kecha</div>
+              </div>
+
+              <!-- Room 2 -->
+              <div class="room-tile state-free">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 102</span>
+                  <span class="room-status-badge">Bo'sh</span>
+                </div>
+                <div class="room-guest-name">Joylashtirishga tayyor</div>
+                <div class="room-tile-type">Standart Double • 450k/kecha</div>
+              </div>
+
+              <!-- Room 3 -->
+              <div class="room-tile state-cleaning">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 103</span>
+                  <span class="room-status-badge">Tozalanmoqda</span>
+                </div>
+                <div class="room-guest-name">Xizmatchi: Madina</div>
+                <div class="room-tile-type">Deluxe King • Tugash: 13:30</div>
+              </div>
+
+              <!-- Room 4 -->
+              <div class="room-tile state-reserved">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 104</span>
+                  <span class="room-status-badge">Bron</span>
+                </div>
+                <div class="room-guest-name">Jorj Miller (AQSH)</div>
+                <div class="room-tile-type">Booking.com • Kelish: 16:00</div>
+              </div>
+
+              <!-- Room 5 -->
+              <div class="room-tile state-busy">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 201</span>
+                  <span class="room-status-badge">Band</span>
+                </div>
+                <div class="room-guest-name">Sherzod Qobilov</div>
+                <div class="room-tile-type">Junior Suite • 3 kecha</div>
+              </div>
+
+              <!-- Room 6 -->
+              <div class="room-tile state-busy">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 202</span>
+                  <span class="room-status-badge">Band</span>
+                </div>
+                <div class="room-guest-name">Farhod Mahmudov</div>
+                <div class="room-tile-type">Standart Double • 1 kecha</div>
+              </div>
+
+              <!-- Room 7 -->
+              <div class="room-tile state-free">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 203</span>
+                  <span class="room-status-badge">Bo'sh</span>
+                </div>
+                <div class="room-guest-name">Joylashtirishga tayyor</div>
+                <div class="room-tile-type">Deluxe Suite • 800k/kecha</div>
+              </div>
+
+              <!-- Room 8 -->
+              <div class="room-tile state-cleaning">
+                <div class="room-tile-top">
+                  <span class="room-tile-num">№ 204</span>
+                  <span class="room-status-badge">Tozalanmoqda</span>
+                </div>
+                <div class="room-guest-name">Xizmatchi: Gulnoza</div>
+                <div class="room-tile-type">Standart Twin • Tugash: 13:45</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Restaurant & Kitchen Mockup -->
+          <div class="demo-tab-panel" id="tab-kitchen">
+            <div class="fnb-split">
+              <div>
+                <h4>Restoran Buyurtmalari va Xonaga Yetkazish</h4>
+                <div class="fnb-order-card">
+                  <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=200&q=80" alt="Ovqat" class="fnb-img" width="70" height="70">
+                  <div class="fnb-details">
+                    <h5>№ 201 Xonaga Buyurtma</h5>
+                    <p>Milliy Oshi, Choynak ko'k choy, Yangi salat (2 kishi)</p>
+                    <div class="price">180 000 so'm • Xona hisobiga yozildi</div>
+                  </div>
+                </div>
+
+                <div class="fnb-order-card">
+                  <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=200&q=80" alt="Nonushta" class="fnb-img" width="70" height="70">
+                  <div class="fnb-details">
+                    <h5>Nonushta Zali (Shved Stoli)</h5>
+                    <p>Bugun nonushta qilgan mehmonlar soni: 64 nafar</p>
+                    <div class="price">Kirim qilingan xarajat: 920 000 so'm</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dash-card-box">
+                <h4>Oshxona Ombordagi Mahsulotlar Qoldig'i</h4>
+                <ul class="activity-feed">
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#10b981"></span>
+                    <div class="activity-info">
+                      <p><strong>Mol go'shti (Lahu)</strong>: 18.5 kg qoldi</p>
+                      <span>Yetarlilik: 3 kunga yetadi</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#f59e0b"></span>
+                    <div class="activity-info">
+                      <p><strong>Qahva donalari (Lavazza)</strong>: 2.1 kg qoldi</p>
+                      <span>Ogohlantirish: Yangi partiya buyurtma berish kerak</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#10b981"></span>
+                    <div class="activity-info">
+                      <p><strong>Guruch (Lazer)</strong>: 34 kg qoldi</p>
+                      <span>Yetarlilik: 7 kunga yetadi</span>
+                    </div>
+                  </li>
+                  <li class="activity-item">
+                    <span class="activity-dot" style="background:#ef4444"></span>
+                    <div class="activity-info">
+                      <p><strong>Toza Suv (19L butilka)</strong>: 3 dona qoldi</p>
+                      <span>Zudlik bilan ta'minotchiga so'rov yuborildi</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 4: Telegram & Mobile Notifications -->
+          <div class="demo-tab-panel" id="tab-telegram">
+            <div class="telegram-mockup-wrap">
+              <div class="telegram-phone-card">
+                <div class="tg-header">
+                  <div class="tg-avatar">HP</div>
+                  <div class="tg-info">
+                    <h5>HotelPro Hisobot Bot</h5>
+                    <span>bot • doim faol</span>
+                  </div>
+                </div>
+                <div class="tg-chat-body">
+                  <div class="tg-msg">
+                    <b>📊 HotelPro Kunlik Xulosasi</b><br>
+                    🗓 <i>Sana: Bugun, 22:00</i><br><br>
+                    🏨 <b>Mehmonxona:</b> Grand Palace Hotel<br>
+                    🛏 <b>Bandlik:</b> 88% (37 / 42 xona)<br>
+                    💵 <b>Kunlik Tushum:</b> 34 820 000 so'm<br>
+                    💳 <b>Naqd:</b> 14 200 000 so'm<br>
+                    📲 <b>Payme/Click:</b> 12 620 000 so'm<br>
+                    🏢 <b>Bank hisob:</b> 8 000 000 so'm<br><br>
+                    🍳 <b>Oshxona xarajati:</b> 2 150 000 so'm<br>
+                    🧹 <b>Tozalangan xonalar:</b> 24 ta<br><br>
+                    ✅ <b>Kassa smenasi muvaffaqiyatli yopildi.</b>
+                    <div class="tg-time">22:01 ✓✓</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Visual Gallery & Real Photography
+         =================================================================== -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-gold">Yuqori Servis</div>
+          <h2>Mehmonxonangizning <span class="text-gradient">har bir burchagida nazorat</span></h2>
+          <p>HotelPro bilan har bir bo'lim birdek soat mexanizmidek mukammal ishlaydi.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80" alt="Mehmonxona xonasi" loading="lazy" width="800" height="320">
+            <div class="gallery-card-content">
+              <h3>Xonalar Va Qulaylik</h3>
+              <p>Mehmon qoniqishi, tozalik va mini-bar nazorati bitta ekranda.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80" alt="Mehmonxona kirish zali" loading="lazy" width="800" height="320">
+            <div class="gallery-card-content">
+              <h3>Resepshn Va Birinchi Taassurot</h3>
+              <p>Mehmon kelganda kutish vaqti 5 daqiqadan 40 soniyaga qisqaradi.</p>
+            </div>
+          </div>
+
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Restoran va taomlar" loading="lazy" width="800" height="320">
+            <div class="gallery-card-content">
+              <h3>Oshxona Va Marjinal Daromad</h3>
+              <p>Oshxona har bir xarid va taom uchun aniq hisob-kitob beradi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Why HotelPro Section (Ajralib turadi)
+         =================================================================== -->
+    <section class="differentiators-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge">Nega aynan HotelPro?</div>
+          <h2>Nimasi bilan <span class="text-gradient">boshqalardan ajralib turadi?</span></h2>
+          <p>Katta xorijiy tizimlar (Opera, Fidelio) nihoyatda murakkab va o'ta qimmat. Daftarlar esa nazorat bermaydi. Biz mahalliy mehmonxonalar uchun ideal muvozanat yaratdik.</p>
+        </div>
+
+        <div class="differentiators-grid">
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            </div>
+            <h3>100% O'zbek Tilida</h3>
+            <p>Mahalliy ish jarayonlariga to'liq moslangan. Xodimlar tizimni 15 daqiqada o'rganib, mustaqil ishlashni boshlaydi.</p>
+          </div>
+
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </div>
+            <h3>Excelni Tezkor Almashtiradi</h3>
+            <p>Mavjud Excel jurnallaringizdagi mehmonlar va xonalar ro'yxatini bir tugma bilan tizimga yuklab olish mumkin.</p>
+          </div>
+
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
+            </div>
+            <h3>Oshxona Ichida</h3>
+            <p>Alohida iiko yoki R-Keeper sotib olish shart emas. Mehmonxona va oshxona kassa hisobi yagona oynada birlashtirilgan.</p>
+          </div>
+
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3>Telefon va Telegram Integratsiyasi</h3>
+            <p>Mehmonxona egasi kompyuter oldida o'tirishga majbur emas. Tushum va bandlik Telegram botga har soat keladi.</p>
+          </div>
+
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Hamyonbop va Shaffof Narx</h3>
+            <p>Hech qanday yashirin to'lovlarsiz oylik obuna. Kichik 10 xonali oilaviy mehmonxonalar ham osongina sotib oladi.</p>
+          </div>
+
+          <div class="diff-card">
+            <div class="diff-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </div>
+            <h3>24/7 Mahalliy Texnik Yordam</h3>
+            <p>Toshkent, Samarqand va Qarshidagi mutaxassislarimiz doimo aloqada. O'rgatish va sozlash joyiga borib amalga oshiriladi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Competitors Comparison Section (Booking.com bilan Taqqoslash va Ustunliklar)
+         =================================================================== -->
+    <section id="raqobatchilar" class="competitor-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-gold">Bozor Tahlili & Raqobatchilar</div>
+          <h2>Asosiy Raqobatchi: <span class="text-gradient">Booking.com va HotelPro</span></h2>
+          <p>
+            O'zbekistondagi ko'plab mehmonxonalarning eng katta xatosi — barcha hisob-kitobni faqat Booking.com ga topshirib qo'yishdir. 
+            Nega faqat Booking.com ga tayanib bo'lmaydi va HotelPro qaysi jihatlari bilan ustun?
+          </p>
+          <div class="competitor-link-row">
+            <a href="https://www.booking.com/index.ru.html?label=mkt123sc-160e1685-453c-4da0-ac68-9465afaf0ec7&aid=304142&sid=2e65475512cba44066b28aaad0ee541e" 
+               target="_blank" rel="noopener noreferrer" class="competitor-external-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span>Booking.com Rasmiy Portali (Solishtirish uchun)</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Strategic Cards Comparison -->
+        <div class="comp-cards-grid">
+          <div class="comp-platform-card booking-side">
+            <div class="comp-platform-header">
+              <div class="comp-platform-badge loss">Raqobatchi: OTA Agregator</div>
+              <h3>Booking.com</h3>
+              <p>Faqat chetdan sayyohlarni topib beruvchi xalqaro vositachi</p>
+            </div>
+            <ul class="comp-checklist">
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>15% – 25% baland komissiya:</strong>
+                  <span>Har 100 000 000 so'm tushumingizdan 15–25 million so'mini o'ziga olib qoladi.</span>
+                </div>
+              </li>
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>Oshxona va restoranni boshqarmaydi:</strong>
+                  <span>Nonushta, ovqatlar va ombordagi go'sht/mahsulotlar hisoboti mutlaqo yo'q.</span>
+                </div>
+              </li>
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>Tozalash (Housekeeping) nazoratsiz:</strong>
+                  <span>Qaysi xona toza, xizmatchi nima qilayotganini ko'rsatmaydi.</span>
+                </div>
+              </li>
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>Mahalliy to'lovlar (Payme/Click) yo'q:</strong>
+                  <span>O'zbekistonlik sayyohlar va korporativ to'lovlar uchun mos emas.</span>
+                </div>
+              </li>
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>Telegram bot hisoboti yo'q:</strong>
+                  <span>Rahbarga har kungi kassa, tushum va xarajatni tashlab bermaydi.</span>
+                </div>
+              </li>
+              <li class="negative">
+                <span class="mark">✕</span>
+                <div>
+                  <strong>O'zbekistonda yordam va ofisi yo'q:</strong>
+                  <span>Muammo chiqsa javobni haftalab kutasiz, o'zbek tilida mutaxassis yo'q.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comp-platform-card hotelpro-side">
+            <div class="comp-platform-header">
+              <div class="comp-platform-badge win">Bizning Yechim: To'liq Tizim</div>
+              <h3>HotelPro CRM</h3>
+              <p>Mehmonxonangizning barcha ichki va tashqi operatsiyalari uchun yagona boshqaruv tizimi</p>
+            </div>
+            <ul class="comp-checklist">
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>0% Komissiya (100% foyda sizda):</strong>
+                  <span>Tushumdan 1 so'm ham ushlanmaydi. Faqat arzon qat'iy oylik obuna.</span>
+                </div>
+              </li>
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>Ichki oshxona va omborxona moduli:</strong>
+                  <span>Har kungi ovqatlanganlar soni va mahsulotlar grammigacha nazoratda.</span>
+                </div>
+              </li>
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>Tozalovchilar telefondan boshqariladi:</strong>
+                  <span>Xona tozalangach, resepshn ekranda darhol "Tayyor" statusini ko'radi.</span>
+                </div>
+              </li>
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>Payme, Click, Uzum va Naqd Kassa:</strong>
+                  <span>Barcha mahalliy to'lovlar va korporativ schet-fakturalar bir joyda.</span>
+                </div>
+              </li>
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>Telegram botga kunlik kassa hisoboti:</strong>
+                  <span>Rahbar uzoqda bo'lsa ham har oqshom tushum va sof foydani ko'radi.</span>
+                </div>
+              </li>
+              <li class="positive">
+                <span class="mark">✓</span>
+                <div>
+                  <strong>24/7 O'zbek tilida mahalliy qo'llab-quvvatlash:</strong>
+                  <span>Ofislarimiz Toshkent, Samarqand va Qarshida. Xodimlarni bepul o'qitamiz.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Detailed Comparison Table -->
+        <div class="comp-table-card">
+          <div class="comp-table-header">
+            <h4>Batafsil Solishtirma Jadvali</h4>
+            <span>HotelPro vs Booking.com mezonlari</span>
+          </div>
+          <div class="table-responsive">
+            <table class="comp-table">
+              <thead>
+                <tr>
+                  <th>Vazifa va Funksiya</th>
+                  <th>Booking.com (OTA Vositachi)</th>
+                  <th>HotelPro (Ichki Boshqaruv CRM)</th>
+                  <th>Sizga Foydasi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Komissiya to'lovi</strong></td>
+                  <td><span class="status-pill bad">15% – 25% har bir brondan</span></td>
+                  <td><span class="status-pill good">0% komissiya (0 so'm)</span></td>
+                  <td><span class="benefit-txt">Oyiga 5 – 25 mln so'm iqtisod</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Oshxona & Nonushta hisobi</strong></td>
+                  <td><span class="status-pill bad">Mavjud emas</span></td>
+                  <td><span class="status-pill good">To'liq integratsiya qilingan</span></td>
+                  <td><span class="benefit-txt">Oshxonadagi isrof 100% to'xtaydi</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Housekeeping (Tozalash)</strong></td>
+                  <td><span class="status-pill bad">Mavjud emas</span></td>
+                  <td><span class="status-pill good">Xizmatchi mobil vazifalari</span></td>
+                  <td><span class="benefit-txt">Mehmon kutib qolmaydi</span></td>
+                </tr>
+                <tr>
+                  <td><strong>O'zbek milliy to'lovlari</strong></td>
+                  <td><span class="status-pill bad">Faqat Visa/Mastercard</span></td>
+                  <td><span class="status-pill good">Payme, Click, Uzum, Naqd</span></td>
+                  <td><span class="benefit-txt">Mijozlar to'lovi oson qabul qilinadi</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Rahbar Telegram Boti</strong></td>
+                  <td><span class="status-pill bad">Mavjud emas</span></td>
+                  <td><span class="status-pill good">Har oqshom avtomatik xulosa</span></td>
+                  <td><span class="benefit-txt">Boshliq daftarsiz nazorat qiladi</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Qo'lda kelgan (Walk-in) mehmonlar</strong></td>
+                  <td><span class="status-pill bad">Ro'yxatga ololmaydi</span></td>
+                  <td><span class="status-pill good">1 tugma bilan joylashtirish</span></td>
+                  <td><span class="benefit-txt">Barcha mehmonlar bitta bazada</span></td>
+                </tr>
+                <tr>
+                  <td><strong>O'zaro integratsiya</strong></td>
+                  <td><span class="status-pill neutral">Faqat o'z saytida sotadi</span></td>
+                  <td><span class="status-pill good">Booking.com bilan ulanadi</span></td>
+                  <td><span class="benefit-txt">Overbooking (adashish) bo'lmaydi</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Synergy Banner: Booking.com + HotelPro Together -->
+        <div class="comp-synergy-banner">
+          <div class="synergy-content">
+            <div class="synergy-badge">🤝 Mukammal Hamkorlik</div>
+            <h3>Biz Booking.com ga qarshi emasmiz — Biz uni HotelPro'ga ulab beramiz!</h3>
+            <p>
+              Sizga sayyohlar kerakmi? Booking.com orqali mijozlarni qabul qilavering. 
+              HotelPro'ning <strong>Channel Manager</strong> texnologiyasi Booking.com dagi barcha bronlarni sekundlar ichida 
+              HotelPro shaxmatkasiga ko'chiradi. Natijada xonalar adashib ketmaydi, siz esa butun mehmonxonangizni bitta joydan boshqarasiz!
+            </p>
+          </div>
+          <div class="synergy-action">
+            <button type="button" class="btn btn-gold btn-lg open-demo-modal">
+              <span>HotelPro'ni Sinab Ko'rish</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Integrations Section (Hamkorlar & Ekosistema)
+         =================================================================== -->
+    <section id="integratsiyalar" class="integrations-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-emerald">Yagona Ekosistema</div>
+          <h2>Hamkorlar va <span class="text-gradient">Integratsiyalar</span></h2>
+          <p>O'zbekistondagi to'lov tizimlari, xalqaro bron kanallari va davlat xizmatlari bilan to'liq integratsiya.</p>
+        </div>
+
+        <div class="pills-cloud">
+          <div class="integ-pill">💳 Payme</div>
+          <div class="integ-pill">💳 Click Up</div>
+          <div class="integ-pill">💳 Uzum Bank</div>
+          <div class="integ-pill">✈️ Telegram Bot</div>
+          <div class="integ-pill">📩 SMS Eskiz Gateway</div>
+          <div class="integ-pill">🌍 Booking.com Channel</div>
+          <div class="integ-pill">🏡 Airbnb Manager</div>
+          <div class="integ-pill">🧾 Soliq & Onlayn NKM</div>
+          <div class="integ-pill">☁️ Bulutli Xavfsiz Server</div>
+          <div class="integ-pill">🏨 Mehmonxonalar Uyushmasi</div>
+          <div class="integ-pill">🎓 Turizm Kollejlari</div>
+        </div>
+
+        <div class="integ-grid">
+          <div class="integ-card">
+            <div class="integ-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            </div>
+            <h3>Milliy To'lov Tizimlari</h3>
+            <p>Payme, Click va Uzum orqali QR-kod yoki havola bilan to'lovlarni qabul qiling. Pul darhol mehmonxona hisobiga tushadi.</p>
+          </div>
+
+          <div class="integ-card">
+            <div class="integ-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Xalqaro Bron Kanallari (OTA)</h3>
+            <p>Booking.com va Airbnb'dagi xonalar soni HotelPro bilan avtomatik yangilanadi. Qo'lda o'zgartirish talab etilmaydi.</p>
+          </div>
+
+          <div class="integ-card">
+            <div class="integ-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
+            </div>
+            <h3>Davlat va Fiskal Cheklar</h3>
+            <p>O'zbekiston soliq talablari bo'yicha chek chiqarish va E-mehmon tizimi uchun tayyor ma'lumotlar eksporti.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Target Audience Section (Mijozlar kimlar)
+         =================================================================== -->
+    <section id="mijozlar" class="audience-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge">Kimlar uchun mos?</div>
+          <h2>Barcha toifadagi <span class="text-gradient">mehmonxona biznesi uchun</span></h2>
+          <p>Kichik oilaviy mehmonxonadan tortib, ko'p tarmoqli mehmonxona zanjirlarigacha birdek samarali.</p>
+        </div>
+
+        <div class="audience-grid">
+          <div class="audience-card">
+            <div class="audience-img">
+              <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=400&q=80" alt="Oilaviy mehmonxona" loading="lazy" width="400" height="140">
+            </div>
+            <div class="audience-content">
+              <h3>Oilaviy Mehmonxona</h3>
+              <p>5-30 xonali maskanlar. Vaqt tejash, daftarsiz ishlash va pul oqimini to'liq ko'rish.</p>
+            </div>
+          </div>
+
+          <div class="audience-card">
+            <div class="audience-img">
+              <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=400&q=80" alt="O'rta mehmonxona" loading="lazy" width="400" height="140">
+            </div>
+            <div class="audience-content">
+              <h3>O'rta Mehmonxona & Restoran</h3>
+              <p>Oshxona va ombor nazorati, isrofni kamaytirish va xodimlar ishini tartibga solish.</p>
+            </div>
+          </div>
+
+          <div class="audience-card">
+            <div class="audience-img">
+              <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=400&q=80" alt="Hostel" loading="lazy" width="400" height="140">
+            </div>
+            <div class="audience-content">
+              <h3>Hostel & Mini-Otel</h3>
+              <p>Tezkor joylashtirish, joy (koyka) bo'yicha hisob yuritish va sayyohlar oqimini boshqarish.</p>
+            </div>
+          </div>
+
+          <div class="audience-card">
+            <div class="audience-img">
+              <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=400&q=80" alt="Sanatoriy" loading="lazy" width="400" height="140">
+            </div>
+            <div class="audience-content">
+              <h3>Sanatoriy & Dam Olish Maskani</h3>
+              <p>Mavsumiy bandlik, 3 mahal ovqatlanish va davolash xizmatlarining aniq hisoboti.</p>
+            </div>
+          </div>
+
+          <div class="audience-card">
+            <div class="audience-img">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80" alt="Mehmonxona tarmog'i" loading="lazy" width="400" height="140">
+            </div>
+            <div class="audience-content">
+              <h3>Mehmonxona Tarmoqlari</h3>
+              <p>Barcha filiallarni bitta rahbar panelidan solishtirish, nazorat qilish va boshqarish.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Pricing Section (Tariflar)
+         =================================================================== -->
+    <section id="tariflar" class="pricing-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-gold">Shaffof Tariflar</div>
+          <h2>Oddiy va <span class="text-gradient">qulay obuna narxlari</span></h2>
+          <p>Har qanday hajmga mos keladigan tarif rejasi. 14 kunlik bepul sinov muddati mavjud.</p>
+        </div>
+
+        <div class="billing-toggle-wrap">
+          <div class="billing-toggle-btn">
+            <button type="button" class="toggle-option active" id="billing-monthly">Oylik To'lov</button>
+            <button type="button" class="toggle-option" id="billing-annual">
+              Yillik To'lov <span class="save-badge">-20% chegirma</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Plan 1 -->
+          <div class="pricing-card">
+            <div class="pricing-card-header">
+              <h3>Start</h3>
+              <p>Kichik va oilaviy mehmonxonalar uchun (15 xonagacha)</p>
+            </div>
+            <div class="price-wrap">
+              <div class="price-amount" id="price-start">299 000 so'm</div>
+              <div class="price-period">oyiga / mehmonxona uchun</div>
+            </div>
+            <ul class="pricing-features-list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Xonalar shaxmatkasi va kalendari</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Bronlar va mehmonlar ro'yxati</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Oddiy kassa va tushum hisoboti</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 2 nafar xodim uchun ruxsat</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Telegram orqali texnik yordam</li>
+            </ul>
+            <button type="button" class="btn btn-secondary open-demo-modal">Start bilan boshlash</button>
+          </div>
+
+          <!-- Plan 2 (Featured) -->
+          <div class="pricing-card featured">
+            <div class="featured-ribbon">Eng Ommabop</div>
+            <div class="pricing-card-header">
+              <h3>Pro</h3>
+              <p>O'rta mehmonxona va restoranlar uchun (50 xonagacha)</p>
+            </div>
+            <div class="price-wrap">
+              <div class="price-amount" id="price-pro">599 000 so'm</div>
+              <div class="price-period">oyiga / mehmonxona uchun</div>
+            </div>
+            <ul class="pricing-features-list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Barcha Start imkoniyatlari</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <strong>Oshxona, restoran va ombor moduli</strong></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <strong>Boshliqqa Telegram hisobot boti</strong></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Housekeeping tozalash boshqaruvi</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Mehmonlar CRM va SMS eslatmalar</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Cheksiz xodimlar akkaunti</li>
+            </ul>
+            <button type="button" class="btn btn-primary open-demo-modal">Pro tarifini tanlash</button>
+          </div>
+
+          <!-- Plan 3 -->
+          <div class="pricing-card">
+            <div class="pricing-card-header">
+              <h3>Tarmoq / VIP</h3>
+              <p>Katta mehmonxonalar va tarmoq filiallar uchun</p>
+            </div>
+            <div class="price-wrap">
+              <div class="price-amount" id="price-network">1 200 000 so'm</div>
+              <div class="price-period">oyiga / mehmonxona uchun</div>
+            </div>
+            <ul class="pricing-features-list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Barcha Pro imkoniyatlari</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> <strong>Ko'p filialli tarmoq nazorati</strong></li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Shaxsiy server va API integratsiyalar</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Maxsus qonunchilik va NKM sozlamalari</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 24/7 Shaxsiy menejer va zudlik bilan yordam</li>
+            </ul>
+            <button type="button" class="btn btn-secondary open-demo-modal">Bog'lanish</button>
+          </div>
+        </div>
+
+        <!-- ===================================================================
+             Interactive ROI Calculator (Foyda kalkulyatori)
+             =================================================================== -->
+        <div id="kalkulyator" class="calculator-box">
+          <div class="calc-grid">
+            <div class="calc-inputs-side">
+              <div class="badge badge-emerald">Biznes Model Simulyatori</div>
+              <h3>HotelPro Foyda Kalkulyatori</h3>
+              <p style="margin-bottom: 24px; font-size: 0.95rem;">
+                Mijozlar soni va o'rtacha to'lov miqdorini o'zgartirib, HotelPro tarmog'i yoki mehmonxona rentabelligini hisoblang:
+              </p>
+
+              <div class="calc-control-group">
+                <div class="calc-control-head">
+                  <span>Mijoz mehmonxonalar soni:</span>
+                  <span class="calc-current-val" id="val-hotels">50</span>
+                </div>
+                <input type="range" class="custom-range" id="calc-hotels" min="5" max="300" step="5" value="50">
+              </div>
+
+              <div class="calc-control-group">
+                <div class="calc-control-head">
+                  <span>O'rtacha oylik to'lov:</span>
+                  <span class="calc-current-val" id="val-fee">500 000 so'm</span>
+                </div>
+                <input type="range" class="custom-range" id="calc-fee" min="200000" max="1500000" step="50000" value="500000">
+              </div>
+
+              <div class="calc-control-group">
+                <div class="calc-control-head">
+                  <span>Xarajatlar ulushi (server, reklama, yordam):</span>
+                  <span class="calc-current-val" id="val-cost">40%</span>
+                </div>
+                <input type="range" class="custom-range" id="calc-cost" min="10" max="80" step="5" value="40">
+              </div>
+            </div>
+
+            <div class="calc-results-side">
+              <div class="calc-results-card">
+                <div class="result-item">
+                  <div class="result-label">Oylik Umumiy Tushum</div>
+                  <div class="result-value" id="res-revenue">25 000 000 so'm</div>
+                </div>
+
+                <div class="result-item highlight">
+                  <div class="result-label">Oylik Sof Foyda</div>
+                  <div class="result-value" id="res-monthly-net">15 000 000 so'm</div>
+                </div>
+
+                <div class="result-item">
+                  <div class="result-label">Yillik Sof Foyda (Prognoz)</div>
+                  <div class="result-value" id="res-annual-net">180 000 000 so'm</div>
+                </div>
+
+                <p style="font-size:0.75rem; color:var(--slate-500); text-align:center;">
+                  * Mazkur hisob-kitob modeli faraziy ko'rsatkichlar asosida hisoblangan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Roadmap Section (Yo'l xaritasi)
+         =================================================================== -->
+    <section id="reja" class="roadmap-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-gold">Rivojlanish Strategiyasi</div>
+          <h2>Yo'l xaritasi: <span class="text-gradient">qayerdan qayergacha?</span></h2>
+          <p>Kichik sinovdan boshlab, mintaqaviy yetakchilikka eltuvchi aniq va bosqichma-bosqich reja.</p>
+        </div>
+
+        <div class="roadmap-timeline">
+          <!-- Step 1 -->
+          <div class="roadmap-step">
+            <span class="step-marker"></span>
+            <span class="step-phase-tag">1-bosqich • 0 - 3 oy</span>
+            <h3>MVP va Dastlabki Sinovlar</h3>
+            <p>Bron tizimi, xonalar shaxmatkasi, oddiy kassa va rahbar paneli. Qarshi va Samarqanddagi 3-5 ta mehmonxonada bepul amaliy sinov va xatolarni bartaraf qilish.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="roadmap-step">
+            <span class="step-marker"></span>
+            <span class="step-phase-tag">2-bosqich • 3 - 6 oy</span>
+            <h3>Oshxona, Ombor va Telegram</h3>
+            <p>Oshxona taomlari hisobi, ombor qoldig'i, kunlik tushum-xarajat balansi va Telegram hisobot botini ishga tushirish. Rasmiy pullik tariflarga o'tish.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="roadmap-step">
+            <span class="step-marker"></span>
+            <span class="step-phase-tag">3-bosqich • 6 - 12 oy</span>
+            <h3>Integratsiyalar va Viloyatlar</h3>
+            <p>Payme, Click, Eskiz SMS shlyuzlari, bron kanallari sinxronizatsiyasi va mobil ilova. Buxoro, Xorazm va Toshkent mehmonxonalari bozoriga chiqish.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="roadmap-step">
+            <span class="step-marker"></span>
+            <span class="step-phase-tag">4-bosqich • 1 - 2 yil</span>
+            <h3>Butun O'zbekiston Bo'ylab Qamrov</h3>
+            <p>Ko'p filialli tarmoq tarifi, turizm kollejlari bilan hamkorlik, mehmonxona xodimlarini o'qitish markazi va davlat turizm tizimlari bilan rasmiy integratsiyalar.</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="roadmap-step">
+            <span class="step-marker"></span>
+            <span class="step-phase-tag">5-bosqich • 2+ yil</span>
+            <h3>Markaziy Osiyo va Sun'iy Intellekt</h3>
+            <p>Qozog'iston, Qirg'iziston va Tojikiston bozorlariga chiqish. Sun'iy intellekt (AI) asosida mavsumiy talab va narxlarni avtomatik shakllantirish algoritmlari.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         FAQ Section
+         =================================================================== -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge">Savollarga Javoblar</div>
+          <h2>Ko'p Beriladigan <span class="text-gradient">Savollar</span></h2>
+          <p>Tizimga ulanish va ishlash jarayoni haqida eng ko'p so'raladigan ma'lumotlar.</p>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>HotelPro'ni o'rnatish qancha vaqt oladi?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              HotelPro bulutli (cloud) tizim bo'lgani uchun uni kompyuterga o'rnatish shart emas. Ro'yxatdan o'tganingizdan so'ng, xonalar va tariflarni kiritish bor-yo'g'i 1-2 soat vaqt oladi. Shu kunning o'zidayoq ishlashni boshlaysiz.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Internet o'chib qolsa nima bo'ladi?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              Tizim smartfoningizdagi mobil internet (3G/4G) orqali ham juda kam trafik sarflagan holda tezkor ishlaydi. Qolaversa, ma'lumotlar xavfsiz bulutda saqlanadi, shuning uchun elektr yoki kompyuter buzilsa ham barcha yozuvlar saqlanib qoladi.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Xodimlarimiz kompyuterni yaxshi bilishmaydi, o'rgana oladimi?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              Ha, HotelPro interfeysi oddiy smartfon kabi qulay va 100% o'zbek tilida yaratilgan. Mutaxassislarimiz xodimlaringizga onlayn yoki joyiga borib 20 daqiqa ichida barcha funksiyalarni amalda ko'rsatib, o'rgatib berishadi.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Eski Excel fayllardagi ma'lumotlarni o'tkazish mumkinmi?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              Albatta! Sizdagi mavjud xonalar, mehmonlar va qarzlar ro'yxatini Excel formatida tizimga bir tugma bilan import qilib beramiz. Hammasini noldan qayta terib chiqish shart emas.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>To'lov qanday amalga oshiriladi?</span>
+              <span class="faq-icon">▼</span>
+            </button>
+            <div class="faq-answer">
+              To'lovni har oy yoki har yil uchun o'tkazma (schet-faktura), korporativ karta yoki Click/Payme orqali to'lashingiz mumkin. Barcha rasmiy buxgalteriya hujjatlari taqdim etiladi.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Lead Capture & Contact Form (Demo Olish)
+         =================================================================== -->
+    <section id="aloqa" class="contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-grid">
+            <div class="contact-info-side">
+              <div>
+                <div class="badge badge-gold">Bepul Taqdimot</div>
+                <h2>Mehmonxonangizni <span class="text-gradient">raqamlashtiramiz</span></h2>
+                <p>
+                  Mehmonxonangiz biznes jarayonlari bilan tanishib, bepul amaliy demo ko'rsatamiz va qaysi modullar aynan sizga zarurligini birga aniqlaymiz.
+                </p>
+
+                <ul class="contact-details-list">
+                  <li>
+                    <div class="contact-icon-box">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                      <strong>Bosh ofis:</strong>
+                      <div>Toshkent shahri, Amir Temur shoh ko'chasi 107B</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="contact-icon-box">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <div>
+                      <strong>Aloqa markazi:</strong>
+                      <div>+998 (71) 200-00-50 / +998 (90) 123-45-67</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="contact-icon-box">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <div>
+                      <strong>Email:</strong>
+                      <div>info@hotelpro.uz</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div style="font-size: 0.85rem; color: var(--slate-400);">
+                HotelPro Technologies • O'zbekiston Respublikasi bo'yicha rasmiy litsenziyalangan tizim
+              </div>
+            </div>
+
+            <div class="contact-form-side">
+              <form class="ajax-form" id="lead-form">
+                <h3 style="font-size: 1.4rem; margin-bottom: 20px;">Bepul Konsultatsiya va Demo Buyurtma</h3>
+                
+                <div class="form-group-row">
+                  <div class="form-group">
+                    <label for="lead-hotel">Mehmonxona nomi *</label>
+                    <input type="text" id="lead-hotel" class="form-control" placeholder="Masalan: Silk Road Plaza" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="lead-rooms">Xonalar soni *</label>
+                    <input type="number" id="lead-rooms" class="form-control" placeholder="Masalan: 25" min="1" max="1000" required>
+                  </div>
+                </div>
+
+                <div class="form-group-row">
+                  <div class="form-group">
+                    <label for="lead-name">Ismingiz *</label>
+                    <input type="text" id="lead-name" class="form-control" placeholder="Ismingiz va familiyangiz" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="lead-phone">Telefon raqamingiz *</label>
+                    <input type="tel" id="lead-phone" class="form-control" placeholder="+998 (90) 123-45-67" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="lead-region">Mehmonxona joylashgan shahar / viloyat</label>
+                  <select id="lead-region" class="form-control">
+                    <option value="toshkent">Toshkent shahri va viloyati</option>
+                    <option value="samarqand">Samarqand viloyati</option>
+                    <option value="buxoro">Buxoro viloyati</option>
+                    <option value="qashqadaryo" selected>Qashqadaryo (Qarshi / Shahrisabz)</option>
+                    <option value="xorazm">Xorazm (Xiva / Urganch)</option>
+                    <option value="fargona">Farg'ona vodiysi</option>
+                    <option value="boshqa">Boshqa viloyat</option>
+                  </select>
+                </div>
+
+                <button type="submit" class="btn btn-gold btn-lg" style="width: 100%;">
+                  <span>Demoni ko'rish va Maslahat olish</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       Footer
+       =================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="#" class="brand-logo" aria-label="HotelPro">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/></svg>
+            </div>
+            <span>HotelPro</span>
+          </a>
+          <p>
+            Mehmonxonangizning hisobi, bronlari, oshxonasi va moliyasi uchun eng qulay bulutli CRM ekotizimi.
+          </p>
+          <div class="social-links">
+            <a href="https://t.me" class="social-btn" aria-label="Telegram" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </a>
+            <a href="https://instagram.com" class="social-btn" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://github.com/Quvonch09" class="social-btn" aria-label="GitHub" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bo'limlar</h4>
+          <ul class="footer-links">
+            <li><a href="#muammo">Muammolar</a></li>
+            <li><a href="#yechim">Modullar</a></li>
+            <li><a href="#demo-live">Jonli Tizim</a></li>
+            <li><a href="#raqobatchilar">Booking.com vs HotelPro</a></li>
+            <li><a href="#integratsiyalar">Integratsiyalar</a></li>
+            <li><a href="#mijozlar">Mijozlar toifasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tariflar & Reja</h4>
+          <ul class="footer-links">
+            <li><a href="#tariflar">Start Tarifi</a></li>
+            <li><a href="#tariflar">Pro Tarifi</a></li>
+            <li><a href="#tariflar">Tarmoq Tarifi</a></li>
+            <li><a href="#kalkulyator">Foyda Kalkulyatori</a></li>
+            <li><a href="#reja">Yo'l Xaritasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Aloqa & Ofislar</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Toshkent • Samarqand • Qarshi</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+998 (71) 200-00-50</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Dushanba - Shanba: 09:00 - 19:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 HotelPro CRM. Barcha huquqlar himoyalangan. Muallif: Quvonchbek.</div>
+        <div>Mehmonxonalar uchun maxsus ishlab chiqilgan O'zbekiston brendi.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       Demo Modal Dialog
+       =================================================================== -->
+  <div class="modal-backdrop" id="demo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close" aria-label="Yopish">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="badge badge-gold">14 Kun Bepul Sinov</div>
+      <h3 id="modal-title" style="font-size: 1.5rem; margin-bottom: 8px;">HotelPro Bepul Demo Olish</h3>
+      <p style="font-size: 0.92rem; color: var(--slate-400); margin-bottom: 24px;">
+        Telefon raqamingizni qoldiring, mutaxassisimiz 15 daqiqa ichida siz bilan bog'lanib, shaxsiy test akkaunt ochib beradi.
+      </p>
+
+      <form class="ajax-form">
+        <div class="form-group">
+          <label for="modal-name">Ismingiz *</label>
+          <input type="text" id="modal-name" class="form-control" placeholder="Ismingizni kiriting" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modal-hotel">Mehmonxona nomi</label>
+          <input type="text" id="modal-hotel" class="form-control" placeholder="Mehmonxona yoki hostel nomi">
+        </div>
+
+        <div class="form-group">
+          <label for="modal-phone">Telefon raqamingiz *</label>
+          <input type="tel" id="modal-phone" class="form-control" placeholder="+998 (90) 123-45-67" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;">
+          <span>Demo Akkaunt Olish</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       Social Proof Live Toast
+       =================================================================== -->
+  <div class="live-toast" id="social-toast" role="alert">
+    <div class="toast-avatar">
+      <img id="toast-img" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=120&q=80" alt="Mehmonxona">
+    </div>
+    <div class="toast-content">
+      <h5 id="toast-name">Grand Hotel Samarqand</h5>
+      <p id="toast-action">HotelPro tizimiga ulandi • 2 daqiqa oldin</p>
+    </div>
+    <button type="button" class="toast-close" id="toast-close" aria-label="Yopish">✕</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
